@@ -1,2 +1,2 @@
 #!/bin/bash
-ls
+current_dir=$(pwd) absolute_path=$(realpath "$current_dir") echo "Current working directory: $absolute_path"
